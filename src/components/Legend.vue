@@ -17,7 +17,7 @@
         </span>
         <span v-if="!show_values" class="t-vue-lspan"
             :style="{color: common.colors.text}">
-            {{(common.meta.last || [])[4]}}
+            {{(common.meta.last || [])[5]}}
         </span>
     </div>
     <div class="t-vue-ind" v-for="ind in this.indicators">
